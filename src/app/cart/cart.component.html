@@ -1,0 +1,8 @@
+<p>cart count:{{prodCount}}</p>
+
+<table>
+    <tr *ngFor="let p of products">
+        <td>{{p.name}}</td>
+        <td><button (click)="removeFromCart()">Remove From Cart</button></td>
+    </tr>
+</table>
