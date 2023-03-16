@@ -40,4 +40,5 @@ jobs:
           password: sHulptZzdqg4nQgRYxGmZBaP9auFJbArxh95bGu1dClBzkg8gj6PJEfTEQrY
           local-dir: dist/
           server-dir: /site/wwwroot/
+          protocol: ftps
           dangerous-clean-slate: true
