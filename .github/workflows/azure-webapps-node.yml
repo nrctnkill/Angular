@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftps://waws-prod-blu-359.ftp.azurewebsites.windows.net
+          server: waws-prod-blu-359.ftp.azurewebsites.windows.net
           username: ravitestcicd\$ravitestcicd
           password: sHulptZzdqg4nQgRYxGmZBaP9auFJbArxh95bGu1dClBzkg8gj6PJEfTEQrY
           local-dir: dist/
